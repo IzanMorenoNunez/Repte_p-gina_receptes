@@ -1,9 +1,5 @@
-.enganxos {
-    position: sticky;
-    top: 10px;
-    background-color: #ffe8d6;
-    padding: 10px;
-    border-bottom: 2px solid black;
+.family {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .page {
@@ -19,10 +15,14 @@
 }
 
 .header {
+    top: 10px;
+    padding: 10px;
+    border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
     gap: 70px;
     align-items: center;
+    background-color: #ffe8d6;
 }
 
 .footer {
@@ -34,18 +34,18 @@
     
 }
 
-.title{
+.title {
     margin-left: 150px; 
     margin-top: 125px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.titles{
+.titles {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 37px;
 }
 
-a:hover{
+a:hover {
     color:rgb(196, 196, 196);
     cursor: pointer;
     text-decoration-line: underline;
@@ -56,9 +56,53 @@ a:hover{
     display: inline-block;
     margin-top: 20px;
     padding:10px 20px;
-    border: 2px solid #ffe8d6;
+    border: 2px solid #cb997e;
     border-radius: 20px;
-    color: #ffe8d6;
+    color: #cb997e;
     font-weight: bold;
     text-decoration: none;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right:150px;
+    margin-top: 50px;
+}
+
+.orange-block {
+    background-color: #cb997e;
+    background-size: cover;
+    height: 200px;
+    margin-left: 150px;
+    margin-right:150px;
+    border-radius: 50px;
+}
+
+.email {
+    align-items: center ;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    border: 2px solid #fde0e0;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    height: 30px;
+}
+
+.botón {
+    background-color: rgb(253, 206, 206);
+    align-items: center ;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 30px;
+
 }

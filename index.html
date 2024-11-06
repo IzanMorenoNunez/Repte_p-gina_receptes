@@ -15,13 +15,13 @@
 <body>
     <article class="page">
         <header>
-            <div class="enganxos">
+            <div>
                 <nav class="header">
                     <div>&emsp;<img src="logoipsum-330.svg"></div>
-                    <div style="flex-grow: 2;" >
-                        &emsp;<a style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="hover">Latest recipes</a> &emsp;
-                        <a style ="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="hover">Most popular recipes</a> &emsp;
-                        <a style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="hover">Categories</a> &emsp;
+                    <div class="family" style="flex-grow: 2;" >
+                        &emsp;<a  href="#LR" class="hover">Latest recipes</a> &emsp;
+                        <a href="#MPR" class="hover">Most popular recipes</a> &emsp;
+                        <a class="hover">Categories</a> &emsp;
                     </div>
                     <div><img style="border-radius: 1000px" width="40px" src="Captura de pantalla 2024-10-31 120134.png"></div>
                 </nav>
@@ -38,20 +38,65 @@
             <div>
                 <nav class="footer">
                     <div style="padding-left: 125px;padding-right: 50px;">
-                        <p style="color: grey; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">View by category:</p>
+                        <p class="family" style="color: grey;">View by category:</p>
                     </div>
-                    <div style="flex-grow: 2; word-spacing: 10px;" >
-                        &emsp;<a style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="hover"><b>Appetizers</b></a> &emsp;
-                        <a style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="hover"><b>Beverages</b></a> &emsp;
-                        <a style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="hover"><b>Desserts</b></a> &emsp;
-                        <a style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="hover" ><b>Healthy</b></a> &emsp;
+                    <div class="family" style="flex-grow: 2; word-spacing: 10px;" >
+                        &emsp;<a class="hover"><b>Appetizers</b></a> &emsp;
+                        <a class="hover"><b>Beverages</b></a> &emsp;
+                        <a class="hover"><b>Desserts</b></a> &emsp;
+                        <a class="hover" ><b>Healthy</b></a> &emsp;
                     </div>
                 </nav>
             </div>
         </footer>
     </article>
     <hr>
-    <p class="titles" style="margin-top: 60px; margin-left: 150px;">Latest recipes</p>
+    <p id="LR" class="titles" style="margin-top: 60px; margin-left: 150px;">Latest recipes</p>
+    <article>
+        <div class="img-text">
+            <div class="family">
+                <img width="550" height="310" src="bocata.jpeg">
+                <p class="titles">Bocata de jamón con queso</p>
+                <p style="font-size: 15px;"><b>Healthy</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat viverra
+                    diam, ac tempus est faucibus in. Sed cursus ante vel fermentum malesuada. Fusce
+                    placerat interdum sem, id porttitor tellus semper vel. Pellentesque fringilla, velit</p>
+                <a href="#" class="button">see recipe</a>
+                </div>
+            <div class="family">
+                <img width="550" src="croquetasx.webp">
+                <p class="titles">Croquetas de jamón</p>
+                <p style="font-size: 15px;"><b>Healthy</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat viverra
+                    diam, ac tempus est faucibus in. Sed cursus ante vel fermentum malesuada. Fusce
+                    placerat interdum sem, id porttitor tellus semper vel. Pellentesque fringilla, velit</p>
+                <a href="#" class="button">see recipe</a>
+            </div>
+        </div>
+    </article>
+    <article class="orange-block">
+        <div class="img-text" style="font-size: large;">
+            <div class="family">
+                <p class="titles">
+                    Never miss a recipe
+                </p>
+                <p>
+                    Join thousands of Company subscribers and get our <br>
+                    best recipes delivered each week!
+                </p>
+            </div>
+            <div class="email">
+                <p style="margin-left: 20px;">
+                    your email
+                </p>
+                <p class="botón" >
+                    &emsp;&emsp;&emsp;Botón&emsp;&emsp;&emsp;
+                </p>
+            </div>
+        </div>
+    </article>
+    <br>
+    <p id="MPR" class="titles" style="margin-top: 60px; margin-left: 150px;">Most popular recipes</p>
 </body>
 
 </html>
