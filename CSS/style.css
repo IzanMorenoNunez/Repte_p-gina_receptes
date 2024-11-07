@@ -10,7 +10,7 @@
 
 .block {
     height: 500px;
-    background-image: url(bocatajamon.jpg);
+    background-image: url(patajamon.webp);
     background-size: cover;
 }
 
@@ -40,6 +40,11 @@
 .titles {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 37px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 a:hover {
@@ -102,7 +107,6 @@ a:hover {
 }
 
 .img-background {
-    background-image: url(platojamon.jpeg);
     margin-left: 30px;
     margin-bottom: 20px;
     width: 100%;
@@ -129,19 +133,15 @@ a:hover {
     background-size: cover;
 }
 
-.end-footer{
-    display: flex;
-    flex-direction: row;
-    background-color: #ffe8d6;
-    background-size: cover;
-    bottom: 20px;
-}
-
-.header-bottom {
+.footer-bottom {
     display: flex;
     justify-content: space-between;
     gap: 70px;
     align-items: center;
     background-color: #ffe8d6;
     flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
