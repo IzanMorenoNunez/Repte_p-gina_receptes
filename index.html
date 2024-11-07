@@ -13,20 +13,20 @@
     <title>Izan Moreno Nuñez</title>
 </head>
 <body>
+    <header style="position: sticky; top: 10px;">
+        <div>
+            <nav class="header">
+                <div>&emsp;<img src="logoipsum-330.svg"></div>
+                <div class="family" style="flex-grow: 2;" >
+                    &emsp;<a  href="#LR" class="hover">Latest recipes</a> &emsp;
+                    <a href="#MPR" class="hover">Most popular recipes</a> &emsp;
+                    <a class="hover">Categories</a> &emsp;
+                </div>
+                <div><img style="border-radius: 1000px" width="40px" src="Captura de pantalla 2024-10-31 120134.png"></div>
+            </nav>
+        </div>
+    </header>
     <article class="page">
-        <header>
-            <div>
-                <nav class="header">
-                    <div>&emsp;<img src="logoipsum-330.svg"></div>
-                    <div class="family" style="flex-grow: 2;" >
-                        &emsp;<a  href="#LR" class="hover">Latest recipes</a> &emsp;
-                        <a href="#MPR" class="hover">Most popular recipes</a> &emsp;
-                        <a class="hover">Categories</a> &emsp;
-                    </div>
-                    <div><img style="border-radius: 1000px" width="40px" src="Captura de pantalla 2024-10-31 120134.png"></div>
-                </nav>
-            </div>
-        </header>
         <section class="block">
             <div class="title">
                 <p style="font-size: 15px;">Healthy<p>
@@ -76,27 +76,89 @@
     </article>
     <article class="orange-block">
         <div class="img-text" style="font-size: large;">
-            <div class="family">
-                <p class="titles">
+            <div class="family" style="margin-top: 50px;">
+                <p style="margin: 0px;" class="titles">
                     Never miss a recipe
                 </p>
-                <p>
+                <p style="margin: 0px;">
                     Join thousands of Company subscribers and get our <br>
                     best recipes delivered each week!
                 </p>
             </div>
             <div class="email">
-                <p style="margin-left: 20px;">
-                    your email
-                </p>
-                <p class="botón" >
-                    &emsp;&emsp;&emsp;Botón&emsp;&emsp;&emsp;
-                </p>
+                <form action="">
+                    <input type="email" placeholder="your email" class="email">
+                    <input type="submit" class="enviarEmail">
+                </form>
             </div>
         </div>
     </article>
     <br>
     <p id="MPR" class="titles" style="margin-top: 60px; margin-left: 150px;">Most popular recipes</p>
+    <br>
+    <article class="family">
+        <div class="img-block">
+            <div class="img-background">
+                <div style="margin-left: 10px; margin-top: 400px;">
+                    <p style="font-size: 15px; margin: 0px;"><b>Healthy</b></p>
+                    <p style="margin: 0px;" class="titles">Plato de jamon</p>
+                </div>
+            </div>
+            <div class="img-background">
+                <div style="margin-left: 10px; margin-top: 400px;">
+                    <p style="font-size: 15px; margin: 0px;"><b>Healthy</b></p>
+                    <p style="margin: 0px;" class="titles">Plato de jamon</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-block">
+            <div class="img-background">
+                <div style="margin-left: 10px; margin-top: 400px;">
+                    <p style="margin: 0px;font-size: 15px;"><b>Healthy</b></p>
+                    <p style="margin: 0px;" class="titles">Plato de jamon</p>
+                </div>
+            </div>
+            <div class="img-background">
+                <div style="margin-left: 10px; margin-top: 400px;">
+                    <p style="font-size: 15px; margin: 0px;"><b>Healthy</b></p>
+                    <p class="titles" style="margin: 0px;">Plato de jamon</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <br>
+    <br>
+    <article class="about-author">
+        <div class="about-author-inf">
+            <img style="border-radius: 600px;" width="200px" src="FotoMia.jpg">
+        </div>
+        <div class="about-author-inf">
+            <div class="family">
+                <p style="font-size: 15px; margin: 0px;"><b>About the Author</b></p>
+                <p style="margin: 0px;" class="titles">Izan Moreno</p>
+                <p style="margin: 0px;">Vestibulum ante ipsum primis in faucibus orci luctus 
+                    et ultrices posuere <br> cubilia Curae; Fusce porttitor 
+                    metus eget lectus consequat, sit amet feugiat <br> magna 
+                    vulputate. Phasellus iaculis tellus augue, at ultrices
+                    lacus efficitur a. <br> Mauris a nibh erat. In sed massa sed
+                    erat consectetur convallis vel vitae felis.<br> Vivamus in
+                    tempus erat. Cras porta nisi sit amet leo dictum, non
+                    suscipit <br>   neque tincidunt. Ut et enim ligula.</p>
+    
+            </div>
+        </div>
+    </article>
+    <article class="end-footer">
+        <img src="logoipsum-330.svg">
+        <div class="header-bottom">
+            <div class="family" style="flex-grow: 2; word-spacing: 10px;" >
+                &emsp;<a class="hover"><b>Appetizers</b></a> &emsp;
+                <a class="hover"><b>Beverages</b></a> &emsp;
+                <a class="hover"><b>Desserts</b></a> &emsp;
+                <a class="hover" ><b>Healthy</b></a> &emsp;
+            </div>
+        </div>
+    </article>
 </body>
 
 </html>
