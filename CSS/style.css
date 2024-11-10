@@ -107,10 +107,11 @@ a:hover {
     margin-top: auto;
     margin-bottom: auto;
     background: #cb997e;
+    margin-left: 100px;
+
 }
 
 .enviarEmail {
-    align-items: center ;
     border-radius: 50px;
     background-color: #ffe8d6;
     
@@ -202,5 +203,9 @@ a:hover {
     .view-category{
         padding-left: 0px;
         padding-right: 0px;
+    }
+    .email{
+        margin-left: 0px;
+        margin-top: 20px;
     }
 }
